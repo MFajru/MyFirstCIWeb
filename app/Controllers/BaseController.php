@@ -44,5 +44,7 @@ class BaseController extends Controller
 		// $this->session = \Config\Services::session();
 
 		$this->nama = "Muhammad Fajru ";
+
+		$this->db = db_connect();
 	}
 }
